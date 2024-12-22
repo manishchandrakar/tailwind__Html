@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS v3.0 Setup</title>
+    <script src="https://cdn.tailwindcss.com/3.0.0"></script>
+  </head>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Hero Section</title>
+      <script src="https://cdn.tailwindcss.com/3.0.0"></script>
+    </head>
+    <body class="bg-white text-gray-800">
+      <section>
+        <div class="flex items-center flex-col">
+          <!-- Hero Section -->
+          <div
+            class="flex flex-col p-10 md:p-20 items-center justify-center text-[#181D27] px-4"
+          >
+            <h1
+              class="text-3xl md:text-5xl font-medium text-center text-gray-900 mb-4"
+            >
+              Creating stylish, functional and<br class="hidden md:block" />
+              memorable spaces
+            </h1>
+            <p class="text-center w-full md:w-[60%] text-gray-600 mb-6">
+              &mdash; We’re a full-service interior design studio who specialise
+              in simple and timeless spaces.
+            </p>
+
+            <a
+              href="#"
+              class="bg-[#CC3A02] text-white font-medium py-4 px-6 rounded-md shadow-lg hover:bg-[#5925DC]"
+            >
+              Contact Us
+            </a>
+          </div>
+
+          <!-- Add Image -->
+          <img
+            src="./Geometric shapes.png"
+            alt="Interior Design"
+            class="w-[80%] md:w-[80%] rounded-lg shadow-lg mb-6"
+          />
+        </div>
+      </section>
+
+      <section>
+        <div class="bg-white py-8">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-center text-[#535862] text-sm font-medium">
+              Trusted by 4,000+ companies
+            </h3>
+            <div class="mt-6 flex justify-center space-x-8 flex-wrap">
+              <!-- Company 1 -->
+              <img
+                src="/Company logo.png"
+                alt="Stacked Lab"
+                class="h-10 opacity-50 hover:opacity-100 transition duration-300 ease-in-out mx-2 mb-4"
+              />
+              <!-- Company 2 -->
+              <img
+                src="/Company logo (1).png"
+                alt="Magnolia"
+                class="h-10 mx-2 mb-4"
+              />
+              <!-- Company 3 -->
+              <img
+                src="./Company logo (2).png"
+                alt="Powersurge"
+                class="h-10 mx-2 mb-4"
+              />
+              <!-- Company 4 -->
+              <img
+                src="./Company logo (3).png"
+                alt="WarpSpeed"
+                class="h-10 mx-2 mb-4"
+              />
+              <!-- Company 5 -->
+              <img
+                src="./Company logo (4).png"
+                alt="LeapYear"
+                class="h-10 mx-2 mb-4"
+              />
+              <!-- Company 6 -->
+              <img
+                src="./Company logo (5).png"
+                alt="EasyTask"
+                class="h-10 opacity-50 hover:opacity-100 transition duration-300 ease-in-out mx-2 mb-4"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="bg-white py-16 px-6 lg:px-20">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
+            <!-- Adjusted grid layout for smaller screens -->
+
+            <!-- Left Column: Title and Description -->
+            <div
+              class="px-4 lg:px-0 flex flex-col gap-4 text-center lg:text-left max-w-lg mx-auto lg:max-w-none"
+            >
+              <div class="flex justify-center lg:justify-start mb-6">
+                <img
+                  src="./Featured icon.png"
+                  class="max-w-lg w-auto h-auto"
+                  alt="Featured Icon"
+                />
+              </div>
+              <h2 class="text-3xl font-medium text-gray-900 sm:text-3xl">
+                Reasons to Trust
+              </h2>
+              <p class="text-lg text-[#535862]">
+                Powerful, self-serve product and growth analytics to help you
+                convert, engage, and retain more users.
+              </p>
+            </div>
+
+            <!-- Right Column: Features -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900">
+                  Share team inboxes
+                </h3>
+                <p class="mt-2 text-[#535862]">
+                  Whether you have a team of 2 or 200, our shared team inboxes
+                  keep everyone on the same page and in the loop.
+                </p>
+              </div>
+
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900">
+                  Deliver instant answers
+                </h3>
+                <p class="mt-2 text-[#535862]">
+                  An all-in-one customer service platform that helps you balance
+                  everything your customers need to be happy.
+                </p>
+              </div>
+
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900">
+                  Manage your team with reports
+                </h3>
+                <p class="mt-2 text-[#535862]">
+                  Measure what matters with Untitled’s easy-to-use reports. You
+                  can filter, export, and drill down on the data in a couple
+                  clicks.
+                </p>
+              </div>
+
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900">
+                  Connect with customers
+                </h3>
+                <p class="mt-2 text-[#535862]">
+                  Solve a problem or close a sale in real-time with chat. If no
+                  one is available, customers are seamlessly routed to email
+                  without confusion.
+                </p>
+              </div>
+
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900">
+                  Connect the tools you already use
+                </h3>
+                <p class="mt-2 text-[#535862]">
+                  Explore 100+ integrations that make your day-to-day workflow
+                  more efficient and familiar. Plus, our extensive developer
+                  tools.
+                </p>
+              </div>
+
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900">
+                  Our people make the difference
+                </h3>
+                <p class="mt-2 text-[#535862]">
+                  We’re an extension of your customer service team, and all of
+                  our resources are free. Chat to our friendly team 24/7 when
+                  you need help.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="bg-white py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-7xl mx-auto">
+            <h3 class="text-[#A62D02] text-xs sm:text-sm font-medium uppercase">
+              Features
+            </h3>
+            <h2
+              class="mt-2 text-2xl sm:text-3xl lg:text-4xl font-medium tracking-tight text-gray-900"
+            >
+              Unique Selling Points
+            </h2>
+            <p
+              class="mt-4 text-base sm:text-lg text-gray-500 max-w-2xl mx-auto px-4 sm:px-6"
+            >
+              Powerful, self-serve product and growth analytics to help you
+              convert, engage, and retain more users. Trusted by over 4,000
+              startups.
+            </p>
+          </div>
+
+          <div class="mt-8 sm:mt-12 lg:mt-16 max-w-7xl mx-auto">
+            <div
+              class="grid grid-cols-1 gap-y-8 sm:gap-12 sm:grid-cols-2 lg:grid-cols-3 px-4 sm:px-6"
+            >
+              <!-- Card 1 -->
+              <div class="text-center group">
+                <div
+                  class="flex justify-center items-center w-12 h-12 mx-auto mb-4 bg-gray-100 rounded-full group-hover:bg-gray-200 transition-colors"
+                >
+                  <span
+                    class="text-gray-600 border-2 sm:border-2 rounded-md bg-white p-1.5 sm:p-2 border text-base sm:text-lg"
+                  >
+                    <img
+                      src="./Icon.png"
+                      alt=""
+                      class="w-6 h-6 sm:w-8 sm:h-8"
+                    />
+                  </span>
+                </div>
+                <h4 class="text-lg sm:text-xl font-medium text-gray-900">
+                  Share team inboxes
+                </h4>
+                <p class="mt-2 text-base sm:text-lg text-gray-500">
+                  Whether you have a team of 2 or 200, our shared team inboxes
+                  keep everyone on the same page and in the loop.
+                </p>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="text-center group">
+                <div
+                  class="flex justify-center items-center w-12 h-12 mx-auto mb-4 bg-gray-100 rounded-full group-hover:bg-gray-200 transition-colors"
+                >
+                  <span
+                    class="text-gray-600 border-2 sm:border-2 rounded-md bg-white p-1.5 sm:p-2 border text-base sm:text-lg"
+                  >
+                    <img
+                      src="./Icon (1).png"
+                      alt=""
+                      class="w-6 h-6 sm:w-8 sm:h-8"
+                    />
+                  </span>
+                </div>
+                <h4 class="text-lg sm:text-xl font-medium text-gray-900">
+                  Deliver instant answers
+                </h4>
+                <p class="mt-2 text-base sm:text-lg text-gray-500">
+                  An all-in-one customer service platform that helps you balance
+                  everything your customers need to be happy.
+                </p>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="text-center group">
+                <div
+                  class="flex justify-center items-center w-12 h-12 mx-auto mb-4 bg-gray-100 rounded-full group-hover:bg-gray-200 transition-colors"
+                >
+                  <span
+                    class="text-gray-600 border-2 sm:border-2 rounded-md bg-white p-1.5 sm:p-2 border text-base sm:text-lg"
+                  >
+                    <img
+                      src="./Icon (2).png"
+                      alt=""
+                      class="w-6 h-6 sm:w-8 sm:h-8"
+                    />
+                  </span>
+                </div>
+                <h4 class="text-lg sm:text-xl font-medium text-gray-900">
+                  Manage your team with reports
+                </h4>
+                <p class="mt-2 text-base sm:text-lg text-gray-500">
+                  Measure what matters with Untitled's easy-to-use reports. You
+                  can filter, export, and drill down on the data in a couple
+                  clicks.
+                </p>
+              </div>
+
+              <!-- Card 4 -->
+              <div class="text-center group">
+                <div
+                  class="flex justify-center items-center w-12 h-12 mx-auto mb-4 bg-gray-100 rounded-full group-hover:bg-gray-200 transition-colors"
+                >
+                  <span
+                    class="text-gray-600 border-2 sm:border-2 rounded-md bg-white p-1.5 sm:p-2 border text-base sm:text-lg"
+                  >
+                    <img
+                      src="./Icon (3).png"
+                      alt=""
+                      class="w-6 h-6 sm:w-8 sm:h-8"
+                    />
+                  </span>
+                </div>
+                <h4 class="text-lg sm:text-xl font-medium text-gray-900">
+                  Connect with customers
+                </h4>
+                <p class="mt-2 text-base sm:text-lg text-gray-500">
+                  Solve a problem or close a sale in real-time with chat. If no
+                  one is available, customers are seamlessly routed to email
+                  without confusion.
+                </p>
+              </div>
+
+              <!-- Card 5 -->
+              <div class="text-center group">
+                <div
+                  class="flex justify-center items-center w-12 h-12 mx-auto mb-4 bg-gray-100 rounded-full group-hover:bg-gray-200 transition-colors"
+                >
+                  <span
+                    class="text-gray-600 border-2 sm:border-2 rounded-md bg-white p-1.5 sm:p-2 border text-base sm:text-lg"
+                  >
+                    <img
+                      src="./Icon (4).png"
+                      alt=""
+                      class="w-6 h-6 sm:w-8 sm:h-8"
+                    />
+                  </span>
+                </div>
+                <h4 class="text-lg sm:text-xl font-medium text-gray-900">
+                  Connect the tools you already use
+                </h4>
+                <p class="mt-2 text-base sm:text-lg text-gray-500">
+                  Explore 100+ integrations that make your day-to-day workflow
+                  more efficient and familiar. Plus, our extensive developer
+                  tools.
+                </p>
+              </div>
+
+              <!-- Card 6 -->
+              <div class="text-center group">
+                <div
+                  class="flex justify-center items-center w-12 h-12 mx-auto mb-4 bg-gray-100 rounded-full group-hover:bg-gray-200 transition-colors"
+                >
+                  <span
+                    class="text-gray-600 border-2 sm:border-2 rounded-md bg-white p-1.5 sm:p-2 border text-base sm:text-lg"
+                  >
+                    <img
+                      src="./Icon (5).png"
+                      alt=""
+                      class="w-6 h-6 sm:w-8 sm:h-8"
+                    />
+                  </span>
+                </div>
+                <h4 class="text-lg sm:text-xl font-medium text-gray-900">
+                  Our people make the difference
+                </h4>
+                <p class="mt-2 text-base sm:text-lg text-gray-500">
+                  We're an extension of your customer service team, and all of
+                  our resources are free. Chat to our friendly team 24/7 when
+                  you need help.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="bg-white py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+          <!-- Header Section -->
+          <div class="flex flex-col sm:flex-row justify-between items-center max-w-6xl mx-auto space-y-4 sm:space-y-0">
+              <div class="text-center sm:text-left">
+                  <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">
+                      Build something great
+                  </h2>
+                  <p class="mt-2 text-gray-600">
+                      Everything you need to build modern UI and great products.
+                  </p>
+              </div>
+              <div>
+                  <button class="px-6 py-2 bg-orange-600 text-white font-medium rounded-md shadow hover:bg-orange-600 transition-colors">
+                      Contact Us
+                  </button>
+              </div>
+          </div>
+      
+          <!-- Metrics Grid -->
+          <div class="mt-8 sm:mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left max-w-6xl mx-auto">
+              <!-- Metric 1 -->
+              <div>
+                  <p class="text-5xl sm:text-6xl font-bold text-orange-600">400+</p>
+                  <h3 class="mt-2 text-lg font-semibold text-gray-900">
+                      Projects completed
+                  </h3>
+                  <p class="mt-1 text-gray-600">
+                      We've helped build over 400 amazing projects.
+                  </p>
+              </div>
+      
+              <!-- Metric 2 -->
+              <div>
+                  <p class="text-5xl sm:text-6xl font-bold text-orange-600">600%</p>
+                  <h3 class="mt-2 text-lg font-semibold text-gray-900">
+                      Return on investment
+                  </h3>
+                  <p class="mt-1 text-gray-600">
+                      Our customers have reported an average of ~600% ROI.
+                  </p>
+              </div>
+      
+              <!-- Metric 3 -->
+              <div>
+                  <p class="text-5xl sm:text-6xl font-bold text-orange-600">10k</p>
+                  <h3 class="mt-2 text-lg font-semibold text-gray-900">
+                      Global downloads
+                  </h3>
+                  <p class="mt-1 text-gray-600">
+                      Our free UI kit has been downloaded over 100k times.
+                  </p>
+              </div>
+      
+              <!-- Metric 4 -->
+              <div>
+                  <p class="text-5xl sm:text-6xl font-bold text-orange-600">200+</p>
+                  <h3 class="mt-2 text-lg font-semibold text-gray-900">
+                      5-star reviews
+                  </h3>
+                  <p class="mt-1 text-gray-600">
+                      We're proud of our 5-star rating with over 200 reviews.
+                  </p>
+              </div>
+          </div>
+      </div>
+        <!-- </div> -->
+      </section>
+
+  <section>
+ 
+    <div class="bg-white w-md py-12">
+      <div class="text-center mb-8">
+        <p class="font-bold text-[#A62D02]">Pricing</p>
+        <h2 class="text-3xl font-bold text-gray-800">Plans that fit your scale</h2>
+        <p class="text-gray-500">Simple, transparent pricing that grows with you. Try any plan free for 30 days.</p>
+      </div>
+    
+      <div class="flex flex-col lg:flex-row justify-around items-center gap-5 px-5">
+        <!-- Basic Plan -->
+        <div class="max-w-sm w-full bg-white border rounded-lg shadow-md p-6">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-medium text-gray-900">Basic plan</h3>
+            <span class="text-sm text-white bg-orange-500 px-2 py-1 rounded-full">Popular</span>
+          </div>
+          <div class="mb-6">
+            <div class="flex">   
+                       <p class="text-6xl font-bold text-gray-900">$10</p>
+            <span class="text-sm mt-10 text-gray-600">per month</span>
+            
+          </div>
+          <p class="text-sm text-gray-600 mt-1">Basic features for up to 10 users.</p>
+          </div>
+
+          <div class="mb-6">
+            <h4 class="text-sm font-semibold text-gray-900 mb-3">FEATURES</h4>
+            <ul class="space-y-2 text-gray-600 text-sm">
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Access to basic features
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Basic reporting and analytics
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Up to 10 individual users
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                20 GB individual data each user
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Basic chat and email support
+              </li>
+            </ul>
+          </div>
+          <div>
+            <a href="#" class="text-sm font-medium text-orange-500 hover:underline">View More</a>
+          </div>
+        </div>
+      
+        <!-- Business Plan -->
+        <div class="max-w-sm w-full bg-white border rounded-lg shadow-md p-6">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-medium text-gray-900">Business plan</h3>
+          </div>
+          <div class="mb-6">
+            <div class="flex">   
+              <p class="text-6xl font-bold text-gray-900">$20</p>
+   <span class="text-sm mt-10 text-gray-600">per month</span>
+   
+ </div>
+            <p class="text-sm text-gray-600 mt-1">Advanced features and reporting.</p>
+          </div>
+          <div class="mb-6">
+            <h4 class="text-sm font-semibold text-gray-900 mb-3">FEATURES</h4>
+            <ul class="space-y-2 text-gray-600 text-sm">
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Access to basic features
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Basic reporting and analytics
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Up to 10 individual users
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                20 GB individual data each user
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Basic chat and email support
+              </li>
+            </ul>
+          </div>
+          <div>
+            <a href="#" class="text-sm font-medium text-orange-500 hover:underline">View More</a>
+          </div>
+        </div>
+      
+        <!-- Enterprise Plan -->
+        <div class="max-w-sm w-full bg-white border  rounded-lg shadow-md p-6">
+          <div class="flex justify-between  items-center mb-4">
+            <h3 class="text-lg font-medium text-gray-900">Enterprise plan</h3>
+          </div>
+          <div class="mb-6">
+            <div class="flex">   
+              <p class="text-6xl font-bold text-gray-900">$40</p>
+   <span class="text-sm mt-10 text-gray-600">per month</span>
+   
+ </div>
+            <p class="text-sm text-gray-600 mt-1">Unlimited features.</p>
+          </div>
+          <div class="mb-6">
+            <h4 class="text-sm font-semibold text-gray-900 mb-3">FEATURES</h4>
+            <ul class="space-y-2 text-gray-700 text-sm">
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Access to Business features
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Basic reporting and analytics
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Up to 10 individual users
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                20 GB individual data each user
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-orange-500 mr-2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Basic chat and email support
+              </li>
+            </ul>
+          </div>
+          <div>
+            <a href="#" class="text-sm font-medium text-orange-500 hover:underline">View More</a>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+    
+  
+  </section>
+
+  <section>
+
+    <div class="bg-gray-50 font-sans">
+      <div class="container mx-auto px-6 py-10">
+        <!-- Header Section -->
+        <div class="text-left mb-12">
+          <h1 class="text-4xl max-w-2xl font-bold text-gray-900">How growth.cx's framework stands out and helps you in SEO?</h1>
+          <p class="mt-4 text-lg text-gray-600">We’ve been designing and building beautiful digital products since 2018.</p>
+        </div>
+    
+        <!-- Features Section -->
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <!-- Features List -->
+          <div class="w-full md:w-[90%]">
+            <div class="mb-8">
+              <h2 class="text-lg font-semibold">Share team inboxes</h2>
+              <p class="mt-2 text-gray-700">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
+            </div>
+            <div class="mb-8">
+              <h2 class="text-lg font-semibold">Deliver instant answers</h2>
+              <p class="mt-2 text-gray-700">An all-in-one customer service platform that helps you balance everything your customers need to be happy.</p>
+            </div>
+            <div>
+              <h2 class="text-lg font-semibold">Manage your team with reports</h2>
+              <p class="mt-2 text-gray-700">Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drill down on the data in a couple clicks.</p>
+            </div>
+          </div>
+    
+          <!-- Dashboard Image Section -->
+          <div class="mt-8 md:mt-0">
+            <img class="rounded-lg shadow-lg w-full" src="./Macbook Pro mockup.svg" alt="Dashboard UI">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section>
+    <div class="bg-gray-50 flex py-10 items-center justify-center ">
+      <div class="text-center">
+        <h2 class="text-3xl font-semibold mb-8">Trusted by 4,000+ Industries</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <!-- Company 1 -->
+          <div class="bg-white shadow-sm rounded-lg p-6 flex items-center justify-center">
+            <img src="./Company logo.png" alt="Wildcrafted Logo" class="w-[60%] mr-3">
+            <!-- <span class="text-lg font-medium">Wildcrafted</span> -->
+          </div>
+          <!-- Company 2 -->
+          <div class="bg-white shadow-sm rounded-lg p-6 flex items-center justify-center">
+            <img src="./Company logo (1).png" alt="Magnolia Logo" class="w-[60%] mr-3">
+            <!-- <span class="text-lg font-medium">Magnolia</span> -->
+          </div>
+          <!-- Company 3 -->
+          <div class="bg-white shadow-sm rounded-lg p-6 flex items-center justify-center">
+            <img src="./Company logo (2).png" alt="Stacked Lab Logo" class="w-[60%] mr-3">
+            <!-- <span class="text-lg font-medium">Stacked Lab</span> -->
+          </div>
+          <!-- Company 4 -->
+          <div class="bg-white shadow-sm rounded-lg p-6 flex items-center justify-center">
+            <img src="./Company logo (3).png" alt="Warpspeed Logo" class="w-[60%] mr-3">
+            <!-- <span class="text-lg font-medium">Warpspeed</span> -->
+          </div>
+          <!-- Company 5 -->
+          <div class="bg-white shadow-sm rounded-lg p-6 flex items-center justify-center">
+            <img src="./Company logo (4).png" alt="Clandestine Logo" class="w-[60%] mr-3">
+            <!-- <span class="text-lg font-medium">Clandestine</span> -->
+          </div>
+          <!-- Company 6 -->
+          <div class="bg-white shadow-sm rounded-lg p-6 flex items-center justify-center">
+            <img src="./Company logo (5).png" alt="Shutterframe Logo" class="w-[60%] mr-3">
+            <!-- <span class="text-lg font-medium">Shutterframe</span> -->
+          </div>
+          <!-- Company 7 -->
+          <div class="bg-white shadow-sm rounded-lg p-6 flex items-center justify-center">
+            <img src="./Company logo (1).png" alt="Powersurge Logo" class="w-[60%] mr-3">
+            <!-- <span class="text-lg font-medium">Powersurge</span> -->
+          </div>
+          <!-- Company 8 -->
+          <div class="bg-white shadow-sm rounded-lg p-6 flex items-center justify-center">
+            <img src="./Company logo (2).png" alt="Leapyear Logo" class="w-[60%] mr-3">
+            <!-- <span class="text-lg font-medium">Leapyear</span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section>
+    <div class="  ">
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Left Section -->
+          <div>
+            <p class="text-[#A62D02] font-bold text-lg">New feature</p>
+            <h1 class="text-4xl font-bold mt-2 leading-tight">SaaS SEO Process Optimized for Your Website Growth</h1>
+            <p class="text-[#535862] mt-4 text-lg">
+              Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.
+            </p>
+          </div>
+    
+          <!-- Right Section -->
+          <div class="space-y-8">
+            <div>
+              <h2 class="text-xl font-semibold">Share team inboxes</h2>
+              <p class="text-[#535862] mt-2">
+                Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.
+              </p>
+            </div>
+    
+            <div>
+              <h2 class="text-xl font-semibold">Deliver instant answers</h2>
+              <p class="text-[#535862] mt-2">
+                An all-in-one customer service platform that helps you balance everything your customers need to be happy.
+              </p>
+            </div>
+    
+            <div>
+              <h2 class="text-xl font-semibold">Manage your team with reports</h2>
+              <p class="text-[#535862] mt-2">
+                Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drill down on the data in a couple of clicks.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Love the simplicity of the service and the prompt customer support. We can’t imagine working without it. -->
+
+  <section>
+    <div class="bg-white flex items-center mb-10 mt-10 justify-center">
+      <div class="max-w-2xl text-center">
+        <!-- Testimonial Text -->
+        <p class="text-xl md:text-2xl font-semibold text-gray-800">
+          Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.
+        </p>
+        
+        <!-- User Info -->
+        <div class="mt-6 flex flex-col items-center">
+          <!-- Profile Image -->
+          <img 
+            src="https://via.placeholder.com/50" 
+            alt="Profile Picture" 
+            class="w-14 h-14 rounded-full mb-3"
+          />
+          <!-- Name and Title -->
+          <div>
+            <p class="text-lg font-medium text-gray-900">Caitlyn King</p>
+            <p class="text-sm text-gray-500">Head of Design, Layers</p>
+          </div>
+          
+          <!-- Star Rating -->
+          <div class="flex mt-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-500" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 .587l3.668 7.57 8.332 1.151-6.064 5.73 1.548 8.177-7.484-3.893-7.484 3.893 1.548-8.177-6.064-5.73 8.332-1.151z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-500" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 .587l3.668 7.57 8.332 1.151-6.064 5.73 1.548 8.177-7.484-3.893-7.484 3.893 1.548-8.177-6.064-5.73 8.332-1.151z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-500" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 .587l3.668 7.57 8.332 1.151-6.064 5.73 1.548 8.177-7.484-3.893-7.484 3.893 1.548-8.177-6.064-5.73 8.332-1.151z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-500" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 .587l3.668 7.57 8.332 1.151-6.064 5.73 1.548 8.177-7.484-3.893-7.484 3.893 1.548-8.177-6.064-5.73 8.332-1.151z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-500 opacity-50" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 .587l3.668 7.57 8.332 1.151-6.064 5.73 1.548 8.177-7.484-3.893-7.484 3.893 1.548-8.177-6.064-5.73 8.332-1.151z"/>
+            </svg>
+          </div>
+    
+          <!-- Pagination -->
+          <div class="flex space-x-2 mt-4">
+            <span class="h-2 w-2 bg-orange-500 rounded-full"></span>
+            <span class="h-2 w-2 bg-gray-300 rounded-full"></span>
+            <span class="h-2 w-2 bg-gray-300 rounded-full"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="bg-gray-50 flex items-center justify-between mt-12 mb-12 px-6 sm:px-12 md:px-24 lg:px-36">
+      <!-- Text Content (Left side) -->
+      <div class="flex flex-col items-start text-left space-y-4">
+        <h1 class="text-2xl font-semibold mb-2">Start your free trial</h1>
+        <p class="text-lg font-medium text-gray-700 mb-4">+91 86382 37537</p>
+        <p class="text-sm text-gray-500 mb-6">Join over 4,000+ startups already growing with Untitled.</p>
+      </div>
+      
+      <!-- Contact Us Button (Right side) -->
+      <div class="flex items-center">
+        <button class="bg-orange-600 text-white font-medium py-2 px-6 rounded hover:bg-orange-700">
+          Contact Us
+        </button>
+      </div>
+    </div>
+  </section>
+  
+
+  
+  
+
+    
+  <!-- Frequently asked questions -->
+
+  <section>
+
+    <div class="bg-gray-50 flex justify-center items-center ">
+      <div class="max-w-3xl mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-center mb-4">Frequently asked questions</h1>
+        <p class="text-gray-500 text-center mb-8">Everything you need to know about the product and billing.</p>
+    
+        <div class=" grid gap-8 grid-cols-2">
+        <div class="space-y-4">
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between= w-full py-4 text-left">
+              <span class="font-medium text-gray-900">Is there a free trial available?</span>
+              <span class="text-gray-500">−</span>
+            </button>
+            <div class="text-gray-600 pb-4">
+              Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.
+            </div>
+          </div>
+    
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between w-full py-4 text-left">
+              <span class="font-medium text-gray-900">Can I change my plan later?</span>
+              <span class="text-gray-500">+</span>
+            </button>
+          </div>
+    
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between w-full py-4 text-left">
+              <span class="font-medium text-gray-900">What is your cancellation policy?</span>
+              <span class="text-gray-500">+</span>
+            </button>
+          </div>
+    
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between w-full py-4 text-left">
+              <span class="font-medium text-gray-900">Can other info be added to an invoice?</span>
+              <span class="text-gray-500">+</span>
+            </button>
+          </div>
+    
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between w-full py-4 text-left">
+              <span class="font-medium text-gray-900">How does billing work?</span>
+              <span class="text-gray-500">+</span>
+            </button>
+          </div>
+    
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between w-full py-4 text-left">
+              <span class="font-medium text-gray-900">How do I change my account email?</span>
+              <span class="text-gray-500">+</span>
+            </button>
+          </div>
+        </div>
+
+        
+        <div class="space-y-4">
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between w-full py-4 text-left">
+              <span class="font-medium text-gray-900">Is there a free trial available?</span>
+              <span class="text-gray-500">−</span>
+            </button>
+            <div class="text-gray-600 pb-4">
+              Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.
+            </div>
+          </div>
+    
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between w-full py-4 text-left">
+              <span class="font-medium text-gray-900">Can I change my plan later?</span>
+              <span class="text-gray-500">+</span>
+            </button>
+          </div>
+    
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between w-full py-4 text-left">
+              <span class="font-medium text-gray-900">What is your cancellation policy?</span>
+              <span class="text-gray-500">+</span>
+            </button>
+          </div>
+    
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between w-full py-4 text-left">
+              <span class="font-medium text-gray-900">Can other info be added to an invoice?</span>
+              <span class="text-gray-500">+</span>
+            </button>
+          </div>
+    
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between w-full py-4 text-left">
+              <span class="font-medium text-gray-900">How does billing work?</span>
+              <span class="text-gray-500">+</span>
+            </button>
+          </div>
+    
+          <!-- FAQ Item -->
+          <div class="border-b">
+            <button class="flex items-center justify-between w-full py-4 text-left">
+              <span class="font-medium text-gray-900">How do I change my account email?</span>
+              <span class="text-gray-500">+</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  
+
+
+  <!-- The latest writings from our team -->
+  <section>
+    <div class="bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 py-8">
+        <!-- Header Section -->
+        <div class="text-left">
+          <p class="text-[#A62D02] font-medium">Our blog</p>
+          <h1 class="text-4xl font-bold text-gray-900">The latest writings from our team</h1>
+          <p class="mt-4 text-gray-600">The latest industry news, interviews, technologies, and resources.</p>
+        </div>
+    
+        <!-- Categories -->
+        <div class="flex flex-wrap justify-center space-x-4 mt-8">
+          <button class="px-4 py-2 bg-white border-2 text-gray-700 rounded-md mb-2 sm:mb-0">View all</button>
+          <button class="px-4 py-2 bg-white text-gray-700 rounded-md mb-2 sm:mb-0">Design</button>
+          <button class="px-4 py-2 bg-white text-gray-700 rounded-md mb-2 sm:mb-0">Product</button>
+          <button class="px-4 py-2 bg-white text-gray-700 rounded-md mb-2 sm:mb-0">Software Engineering</button>
+          <button class="px-4 py-2 bg-white text-gray-700 rounded-md mb-2 sm:mb-0">Customer Success</button>
+        </div>
+    
+        <!-- Blog Posts -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10">
+          <!-- Blog Post 1 -->
+          <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="https://s3-alpha-sig.figma.com/img/69c2/d48b/a81567d28893e15cd0baf517c39f52ee?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HIelIUJA7EmuqjpkD3Wy40kCFdMeZkiLKhuA4sWlC1WaQc7xSqBYvu9RNG9mJgZX5t2J1s9hyG0aiBf9VZFW5g~plaWw2g4be0V0pArYtXUAiE6JD6fYccNVLFCv0gTdxoCjF4w5JlxkfTWlayCob4g5oo-ef109YdV0TnsQ1ao6huHOu4w4nzpcPY3lPMvebJHpXdBJrMEvBvHbqkxxV5xtyk4N2XAcVga0Iq5hmY0NreKpmh48i~r2Kd8hr7Ele-b8S1wFF1BSyzS30Y9L5ofUMnrjM2gu8usPqQwtz5yL9wr-sAMJo5Q9owiAAehwqe8L1Jk~AJDQi-6~5jnivA__" alt="UX review presentations" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <p class="text-gray-600 text-lg">Olivia Rhye • 20 Jan 2025 • Design</p>
+              <h2 class="mt-2 text-2xl font-semibold text-gray-800">UX review presentations</h2>
+              <p class="mt-2 text-gray-600 text-sm">How do you create compelling presentations that wow your colleagues and impress your managers?</p>
+              <a href="#" class="mt-4 inline-block text-[#CC3A02] text-lg font-semibold hover:underline">Read post →</a>
+            </div>
+          </div>
+    
+          <!-- Blog Post 2 -->
+          <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="https://s3-alpha-sig.figma.com/img/12e5/7dc8/c26ffbd65d754a3814aa245e717c32a7?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BKrIt530Cv3VYS050ycH5z7qmKLEMpN32w8TXGNJVRc4Q0Czj4MtD5sYCMrWS5iVurvp5Zh6r8gyFss~3JkYmd-tyi4w4VUB2ONUOiTO11cDwwVDervcba8SS5PK~ST~Qz4zNAX8QnNUWZnuJpnC0-GJIP~ebVKaCIYIXjhjhpHJwZ7yuL63qPcAIi22y28R1zvjBNC1odsTLVdkbTqfgB~sRBaYBymWdDXX9h5vxYfsqV01yKSUxjqgxpUo9PNqhgncB5rOMQhgC0y~dEg-mwMYcEl5WcG~hjMQqYiKpagGEteiXqG2DFODqG0JCKlvfRY1tDBow7Xkx4RGZTFOOQ__" alt="Migrating to Linear 101" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <p class="text-gray-600 text-lg">Olivia Rhye • 20 Jan 2025 • Design</p>
+              <h2 class="mt-2 text-2xl font-semibold text-gray-800">Migrating to Linear 101</h2>
+              <p class="mt-2 text-gray-600 text-sm">Linear helps streamline software projects, sprints, tasks, and bug tracking. Here's how to get started.</p>
+              <a href="#" class="mt-4 inline-block text-[#CC3A02] text-lg font-semibold hover:underline">Read post →</a>
+            </div>
+          </div>
+    
+          <!-- Blog Post 3 -->
+          <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="https://s3-alpha-sig.figma.com/img/4f7c/b156/af7440d6883d7ce6e71818b4d55fde88?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P01V2oFOs7eY4avEnOEqtLPMalNwJ1wtEKq2zl68HGIfM5sds1vYYJisfEVPRIsVDwBI0GtO0JwEaXMrvabfP5JdjkiSpJEW5hIYYyM1dqWavfljHTmljmq5Z9ENfGE4Wp7Mw1DhxAdaTpzswVdlMeVCR3ypnKgDUgQ9ggJUQTA5CXgHAJbEWivOwsXjnmGD0RBbDgahg~4iJqxKWC6QLRnTn7F0w4SoPkLNsh56oVoiGROQfjcTeSh90LKSC03nzeVbU5cGApHcRm9NrXC8vQ4PCwfRJOLOTZBRhvY~XNyndQe5sUiJOgvvZKIfcCsHY9N4F2VVMHdsdfM0K4mZ1w__" alt="Building your API stack" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <p class="text-gray-600 text-lg">Olivia Rhye • 20 Jan 2025 • Design</p>
+              <h2 class="mt-2 text-2xl font-semibold text-gray-800">Building your API stack</h2>
+              <p class="mt-2 text-gray-600 text-sm">The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.</p>
+              <a href="#" class="mt-4 inline-block text-[#CC3A02] text-lg font-semibold hover:underline">Read post →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+ 
+    </body>
+  </html>
+</html>
